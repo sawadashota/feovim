@@ -20,11 +20,12 @@ telescope.setup({
   extensions = {
     whaler = {
       directories = {
-        { path = "~/code", alias = "code" },
-        { path = "~/code/github", alias = "github" },
-        { path = "~/code/rtl/pspdx", alias = "devx" },
-        { path = "~/code/rtl/contract", alias = "contract" },
-        { path = "~/code/rtl/systemssq", alias = "systems" },
+        { path = "~/repo", alias = "repo" },
+        { path = "~/repo/github.com", alias = "github" },
+        { path = "~/repo/github.com/sawadashota", alias = "sawadashota" },
+        { path = "~/repo/github.com/sslife-tech", alias = "sslife-tech" },
+        { path = "~/repo/github.com/tier4", alias = "tier4" },
+        { path = "~/repo/github.com/ory", alias = "ory" },
       },
       file_explorer = "nvimtree",
     }
