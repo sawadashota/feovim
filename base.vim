@@ -68,7 +68,7 @@ set updatetime=250
 set mouse=a
 
 "syntax
-syntax enable
+syntax on
 
 "is not useful in screenshare
 "use :set number to disable
